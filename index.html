@@ -1,30 +1,73 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Favorite Foods and Hobbies</title>
-</head>
-<body>
-    <h1>My Favorite Things</h1>
-    <p>This page highlights some of my favorite foods and hobbies, organized into lists for clarity.</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Destinations — HTML Lists</title>
+  </head>
+  <body>
+    <header>
+      <h1>My Top Travel Destinations</h1>
+      <p>
+        Lists help organize information so it's easy to scan and understand.
+        Below I've used an ordered list to rank my dream trips (the order
+        matters!) and an unordered list for the essentials I'd pack on any
+        of them (the order doesn't). Each list also demonstrates a different
+        list-style attribute.
+      </p>
+    </header>
 
-    <h2>Top 5 Favorite Foods</h2>
-    <ol type="I">
-        <li>Pizza</li>
-        <li>Sushi</li>
-        <li>Pasta</li>
-        <li>Ice Cream</li>
-        <li>Tacos</li>
-    </ol>
+    <section>
+      <h2>Top 5 Dream Destinations</h2>
+      <p>An ordered list using Roman numerals (type="I").</p>
+      <ol type="I">
+        <li>Kyoto, Japan — temples, tea houses, and cherry blossoms.</li>
+        <li>Reykjavík, Iceland — northern lights and geothermal springs.</li>
+        <li>Marrakech, Morocco — vibrant souks and historic medinas.</li>
+        <li>Patagonia, Argentina — glaciers and dramatic mountain trails.</li>
+        <li>Lisbon, Portugal — pastel architecture and coastal cuisine.</li>
+      </ol>
+    </section>
 
-    <h2>Hobbies I Enjoy</h2>
-    <ul style="list-style-type: square;">
-        <li>Reading books</li>
-        <li>Traveling</li>
-        <li>Photography</li>
-        <li>Cooking</li>
-        <li>Gardening</li>
-    </ul>
-</body>
+    <section>
+      <h2>Travel Packing Essentials</h2>
+      <p>An unordered list with square bullets (list-style-type: square).</p>
+      <ul style="list-style-type: square">
+        <li>Passport and travel documents</li>
+        <li>Reusable water bottle</li>
+        <li>Comfortable walking shoes</li>
+        <li>Portable phone charger</li>
+        <li>Layered clothing for changing weather</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Trip Planning Steps</h2>
+      <p>A nested list — ordered steps with unordered sub-items.</p>
+      <ol type="1">
+        <li>
+          Research the destination
+          <ul>
+            <li>Read travel blogs and guides</li>
+            <li>Check visa and entry requirements</li>
+          </ul>
+        </li>
+        <li>
+          Book logistics
+          <ul>
+            <li>Compare flight prices</li>
+            <li>Reserve accommodation</li>
+          </ul>
+        </li>
+        <li>
+          Pack and go
+          <ul style="list-style-type: circle">
+            <li>Check the weather forecast</li>
+            <li>Arrive at the airport early</li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+  </body>
 </html>
+
